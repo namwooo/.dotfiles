@@ -103,3 +103,14 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias g="git"
 
+# Antigen
+source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle osx
+antigen bundle brew
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen apply

@@ -1,5 +1,6 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
+brew "antigen"
 brew "cask"
 brew "curl"
 brew "mas"

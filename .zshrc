@@ -103,6 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias g="git"
 
+# Pyenv
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
 # Antigen
 source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
 

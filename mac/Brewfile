@@ -12,6 +12,7 @@ cask "iterm2"
 cask "notion"
 cask "slack"
 cask "visual-studio-code"
+cask "whatsapp"
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
@@ -21,3 +22,10 @@ mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"

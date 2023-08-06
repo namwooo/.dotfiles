@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,14 +110,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-# Antigen
-source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+# Antidote
+source /opt/homebrew/share/antidote/antidote.zsh
 
-antigen use oh-my-zsh
-
-antigen bundle git
-antigen bundle osx
-antigen bundle brew
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-autosuggestions
-antigen apply
+antidote load ~/.zsh_plugins.txt

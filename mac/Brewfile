@@ -1,6 +1,7 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
 brew "antidote"
+brew "bazel"
 brew "cask"
 brew "curl"
 brew "mas"
@@ -31,6 +32,7 @@ mas "Pages", id: 409201541
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
 vscode "johnpapa.winteriscoming"
+vscode "ms-python.black-formatter"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-toolsai.jupyter"

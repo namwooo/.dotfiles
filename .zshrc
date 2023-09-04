@@ -476,3 +476,5 @@ function grename() {
 }
 
 unset git_version
+
+export PATH="/opt/homebrew/anaconda3/bin:$PATH"

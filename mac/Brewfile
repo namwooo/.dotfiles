@@ -1,5 +1,6 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
+tap "stripe/stripe-cli"
 brew "antidote"
 brew "bazel"
 brew "unbound"
@@ -13,6 +14,7 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "tree"
 brew "wget"
+brew "stripe/stripe-cli/stripe"
 cask "anaconda"
 cask "db-browser-for-sqlite"
 cask "discord"
@@ -36,6 +38,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
+vscode "bradlc.vscode-tailwindcss"
 vscode "johnpapa.winteriscoming"
 vscode "ms-python.black-formatter"
 vscode "ms-python.python"
@@ -45,3 +48,4 @@ vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
 vscode "ms-toolsai.vscode-jupyter-cell-tags"
 vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "Prisma.prisma"

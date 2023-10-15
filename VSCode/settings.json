@@ -6,5 +6,6 @@
       "editor.defaultFormatter": "ms-python.black-formatter",
       "editor.formatOnSave": true
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "explorer.compactFolders": false
 }

@@ -9,5 +9,9 @@
         "key": "ctrl+shift+`",
         "command": "-workbench.action.terminal.new",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.files.action.focusFilesExplorer"
     }
 ]

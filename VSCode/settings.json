@@ -1,11 +1,14 @@
 {
-    "workbench.editor.untitled.hint": "hidden",
-    "window.zoomLevel": -1,
-    "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)"
-    "[python]": {
-      "editor.defaultFormatter": "ms-python.black-formatter",
-      "editor.formatOnSave": true
-    },
-    "editor.tabSize": 2,
-    "explorer.compactFolders": false
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "workbench.editor.empty.hint": "hidden",
+  "window.zoomLevel": -1
 }

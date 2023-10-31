@@ -13,6 +13,7 @@ brew "node"
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "tree"
+brew "watchman"
 brew "wget"
 brew "stripe/stripe-cli/stripe"
 cask "anaconda"
@@ -38,7 +39,10 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
+mas "Xcode", id: 497799835
 vscode "bradlc.vscode-tailwindcss"
+vscode "burkeholland.simple-react-snippets"
+vscode "esbenp.prettier-vscode"
 vscode "johnpapa.winteriscoming"
 vscode "ms-python.black-formatter"
 vscode "ms-python.python"

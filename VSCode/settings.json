@@ -9,6 +9,5 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "explorer.compactFolders": false,
-  "workbench.editor.empty.hint": "hidden",
-  "window.zoomLevel": -1
+  "workbench.editor.empty.hint": "hidden"
 }

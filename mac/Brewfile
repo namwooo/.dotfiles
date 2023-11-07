@@ -1,5 +1,6 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
+tap "homebrew/cask-versions"
 tap "stripe/stripe-cli"
 brew "antidote"
 brew "bazel"
@@ -12,6 +13,7 @@ brew "minikube"
 brew "node"
 brew "pyenv"
 brew "pyenv-virtualenv"
+brew "rbenv"
 brew "tree"
 brew "watchman"
 brew "wget"
@@ -27,6 +29,7 @@ cask "postman"
 cask "slack"
 cask "visual-studio-code"
 cask "whatsapp"
+cask "zulu11"
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
@@ -39,10 +42,12 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Things", id: 904280696
 mas "Twitter", id: 1482454543
+mas "Webull Desktop", id: 1334590352
 mas "Xcode", id: 497799835
 vscode "bradlc.vscode-tailwindcss"
 vscode "burkeholland.simple-react-snippets"
 vscode "esbenp.prettier-vscode"
+vscode "formulahendry.code-runner"
 vscode "johnpapa.winteriscoming"
 vscode "ms-python.black-formatter"
 vscode "ms-python.python"

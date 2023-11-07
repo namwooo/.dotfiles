@@ -1,5 +1,4 @@
 {
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",

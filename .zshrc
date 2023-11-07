@@ -115,6 +115,10 @@ source /opt/homebrew/share/antidote/antidote.zsh
 
 antidote load ~/.zsh_plugins.txt
 
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 # Git version checking
 autoload -Uz is-at-least
 git_version="${${(As: :)$(git version 2>/dev/null)}[3]}"

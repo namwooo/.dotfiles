@@ -1,4 +1,4 @@
 #! /bin/sh
 
 echo "Saving VSCode extensions..."
-code --list-extensions > ~/.dotfiles/VSCode/extensions
+code --list-extensions > ~/Projects/.dotfiles/VSCode/extensions

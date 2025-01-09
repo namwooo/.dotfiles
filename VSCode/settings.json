@@ -7,6 +7,9 @@
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.validate": ["javascript"],
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 70,
   "explorer.compactFolders": false,
   "workbench.editor.empty.hint": "hidden",
   "window.zoomLevel": -1

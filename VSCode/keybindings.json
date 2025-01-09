@@ -6,12 +6,16 @@
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     },
     {
-        "key": "ctrl+shift+`",
-        "command": "-workbench.action.terminal.new",
+        "key": "cmd+shift+,",
+        "command": "workbench.action.terminal.new",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     },
     {
         "key": "cmd+e",
         "command": "workbench.files.action.focusFilesExplorer"
-    }
+    },
+    { 
+	    "key": "cmd+n", 
+	    "command": "explorer.newFile" 
+    },
 ]

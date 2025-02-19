@@ -31,6 +31,7 @@ brew "edencommon"
 brew "gdbm"
 brew "httpd", restart_service: :changed
 brew "imagemagick"
+brew "just"
 brew "libffi"
 brew "libyaml"
 brew "mailhog"

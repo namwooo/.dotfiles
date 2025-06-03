@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
+  "workbench.colorTheme": "GitHub Dark",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true
@@ -7,9 +7,17 @@
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.validate": ["javascript"],
+  "editor.validate": [
+    "javascript"
+  ],
   "prettier.singleQuote": true,
   "prettier.printWidth": 70,
+  "prettier.semi": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.bracketSpacing": true,
   "explorer.compactFolders": false,
   "workbench.editor.empty.hint": "hidden",
   "window.zoomLevel": -1

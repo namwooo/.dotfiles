@@ -10,6 +10,7 @@ brew "xz"
 brew "openssl@3"
 brew "automake"
 brew "readline"
+brew "awscli"
 brew "glib"
 brew "cairo"
 brew "harfbuzz"
@@ -32,14 +33,15 @@ brew "gdbm"
 brew "httpd", restart_service: :changed
 brew "imagemagick"
 brew "just"
-brew "libffi"
 brew "libyaml"
 brew "mailhog"
 brew "mariadb", restart_service: :changed
 brew "mas"
+brew "ninja"
+brew "meson"
 brew "minikube"
 brew "mvfst"
-brew "node"
+brew "node", link: false
 brew "openjdk@11"
 brew "phpmyadmin"
 brew "pkgconf"
@@ -50,7 +52,6 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "python@3.12"
 brew "rbenv"
-brew "ruby"
 brew "ruby-install"
 brew "tree"
 brew "vim"
@@ -79,16 +80,6 @@ cask "slack"
 cask "tableplus"
 cask "visual-studio-code"
 cask "whatsapp"
-mas "1Password 7", id: 1333542190
-mas "Amphetamine", id: 937984704
-mas "KakaoTalk", id: 869223134
-mas "Keynote", id: 409183694
-mas "Kindle", id: 302584613
-mas "Magnet", id: 441258766
-mas "Things", id: 904280696
-mas "Twitter", id: 1482454543
-mas "Webull Desktop", id: 1334590352
-mas "Xcode", id: 497799835
 vscode "bmewburn.vscode-intelephense-client"
 vscode "bradlc.vscode-tailwindcss"
 vscode "burkeholland.simple-react-snippets"
@@ -97,6 +88,7 @@ vscode "esbenp.prettier-vscode"
 vscode "formulahendry.code-runner"
 vscode "github.copilot"
 vscode "github.copilot-chat"
+vscode "github.github-vscode-theme"
 vscode "jock.svg"
 vscode "johnpapa.winteriscoming"
 vscode "ms-python.black-formatter"

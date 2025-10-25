@@ -18,4 +18,8 @@
 	    "key": "cmd+n", 
 	    "command": "explorer.newFile" 
     },
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    },
 ]
